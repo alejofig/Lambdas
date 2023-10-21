@@ -1,0 +1,7 @@
+curl --location 'https://kpd7lcsmqhjeawmiwknvmhqzra0lprxv.lambda-url.us-east-1.on.aws/' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "subject": "Ejemplo de correo electrónico desde Lambda en postman",
+    "body": "Este es un ejemplo de correo electrónico enviado desde una función Lambda de AWS SES.",
+    "recipient": "1alejofig1@gmail.com"
+}'
